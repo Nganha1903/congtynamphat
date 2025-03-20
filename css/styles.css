@@ -1,17 +1,17 @@
 .body{}
 .content {
 			display: flex;
-			align-items: center;  /* Căn giữa logo và tên công ty */
-			justify-content: center; /* Căn giữa theo chiều ngang */
-			gap: 15px;  /* Khoảng cách giữa logo và tiêu đề */
-			background-color: #4CAF50; /* Màu nền */
-			color: #fff; /* Màu chữ */
-			padding: 15px 0; /* Tăng khoảng cách trên dưới */
-			position: sticky; /* Giữ nguyên khi cuộn */
-			top: 0; /* Ghim lên đầu trang */
-			width: 100%; /* Trải dài toàn bộ trang */
-			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
-			z-index: 1000; /* Đảm bảo hiển thị trên các phần tử khác */
+			align-items: center;  
+			justify-content: center;
+			gap: 15px;  
+			background-color: #4CAF50; 
+			color: #fff; 
+			padding: 15px 0; 
+			position: sticky; 
+			top: 0; 
+			width: 100%; 
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+			z-index: 1000;
 		}
 
 		.content img {
@@ -26,15 +26,15 @@
 		}
 
 		.main-content {
-			margin-top: 100px; /* Tạo khoảng trống để tránh nội dung bị che */
+			margin-top: 100px; 
 			padding: 20px;
-			height: 1500px; /* Nội dung giả lập để test hiệu ứng cuộn */
+			height: 1500px; 
 			background-color: #f0f0f0;
 		}
 .h1 {
 
-    font-weight: bold;     /* In đậm */
-    text-transform: uppercase; /* In hoa */
+    font-weight: bold;     
+    text-transform: uppercase; 
 }
 @media (max-width: 768px) {
     .box {
