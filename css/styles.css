@@ -36,10 +36,13 @@
     font-weight: bold;     /* In đậm */
     text-transform: uppercase; /* In hoa */
 }
-@font-face {
-    font-family: 'TenFontCuaBan';
-    src: url('path/to/font.woff2') format('woff2'),
-         url('path/to/font.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    body {
+        padding: 10px;
+    }
 }
+
